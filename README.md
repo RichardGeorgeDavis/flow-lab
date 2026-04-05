@@ -42,10 +42,7 @@ npm run dev
 
 ## Reference
 
-This project is my own repo and presentation layer. For technical and visual lineage, the main reference point for this version is [holtsetio/flow](https://github.com/holtsetio/flow).
-
 Reference chain:
 
 - the MLS-MPM implementation is heavily based on [matsuoka-601/WebGPU-Ocean](https://github.com/matsuoka-601/WebGPU-Ocean)
 - the visual direction is influenced by [Refik Anadol](https://refikanadol.com/)
-- the original public demo reference is [holtsetio.com/lab/flow](https://holtsetio.com/lab/flow/)
