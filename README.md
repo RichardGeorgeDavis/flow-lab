@@ -1,8 +1,8 @@
 # Flow Lab
 
-Flow Lab is my Three.js WebGPU particle-simulation project. It is set up here as a portable repo with local runtime metadata, a repo-local cover image, capture tools, and presentation controls for tuning the scene.
+Flow Lab is a browser-based WebGPU particle-simulation project built with Three.js TSL.
 
-It runs a realtime MLS-MPM simulation in the browser using Three.js TSL, with a fluid-art direction influenced by the work of Refik Anadol.
+It explores realtime MLS-MPM motion with a fluid-art visual direction, plus interactive scene controls and built-in capture tools for stills and short loops.
 
 <!-- workspace-hub:cover:start -->
 [![Flow cover](cover.png)](https://proto.lucidity.design/sites/flow-lab)
