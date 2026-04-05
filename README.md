@@ -1,0 +1,51 @@
+# Flow Lab
+
+Flow Lab is my Three.js WebGPU particle-simulation project. It is set up here as a portable repo with local runtime metadata, a repo-local cover image, capture tools, and presentation controls for tuning the scene.
+
+It runs a realtime MLS-MPM simulation in the browser using Three.js TSL, with a fluid-art direction influenced by the work of Refik Anadol.
+
+<!-- workspace-hub:cover:start -->
+[![Flow cover](cover.png)](https://proto.lucidity.design/sites/flow-lab)
+<!-- workspace-hub:cover:end -->
+
+## Demo
+
+[https://proto.lucidity.design/sites/flow-lab](https://proto.lucidity.design/sites/flow-lab)
+
+![Flow preview](preview.gif)
+
+
+## Controls
+
+- orbit with pointer drag
+- press `Space` to pause or resume the simulation
+- use the Tweakpane `settings` panel for particle count, particle size, bloom, and point rendering
+- use `settings > presentation > fitToWindow` to make the viewport aspect become the active chamber, so the simulation fills the window instead of staying in the original contained box
+- use `settings > presentation > showChamber` to toggle the chamber mesh in either mode
+- use `settings > background` to switch between HDR sky and a solid background color, and to tune chamber surface settings
+- use `settings > color` for quick palette presets and manual hue / saturation / value tuning
+- use `settings > capture` to save a PNG or a short GIF from the current viewport, and reduce GIF size with scale, frame count, and fps
+- tune `settings > presentation > exposure`, `environmentIntensity`, and `bloomStrength` for different looks
+
+## How to run
+
+From the repo root:
+```
+npm install
+npm run dev
+```
+
+## Notes
+
+- WebGPU support is required for the intended rendering path
+- this repo is configured for direct local runtime in Codex Workspace via [.workspace/project.json](.workspace/project.json)
+
+## Reference
+
+This project is my own repo and presentation layer. For technical and visual lineage, the main reference point for this version is [holtsetio/flow](https://github.com/holtsetio/flow).
+
+Reference chain:
+
+- the MLS-MPM implementation is heavily based on [matsuoka-601/WebGPU-Ocean](https://github.com/matsuoka-601/WebGPU-Ocean)
+- the visual direction is influenced by [Refik Anadol](https://refikanadol.com/)
+- the original public demo reference is [holtsetio.com/lab/flow](https://holtsetio.com/lab/flow/)

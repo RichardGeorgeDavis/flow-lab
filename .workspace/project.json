@@ -1,0 +1,20 @@
+{
+  "name": "Flow",
+  "slug": "flow-lab",
+  "type": "threejs",
+  "preferredMode": "direct",
+  "packageManager": "npm",
+  "installCommand": "npm install",
+  "devCommand": "npm run dev",
+  "buildCommand": "npm run build",
+  "previewCommand": "npm run preview",
+  "previewUrl": "http://127.0.0.1:1234",
+  "healthcheckUrl": "http://127.0.0.1:1234",
+  "tags": [
+    "frontend",
+    "threejs",
+    "webgpu",
+    "prototype"
+  ],
+  "notes": "Direct-run browser simulation built with Three.js and Vite."
+}
